@@ -1,0 +1,10 @@
+[
+    {
+        "url": "www.facebook.com",
+        "ip": "192.168.1.1"
+    },
+    {
+        "url": "www.google.com",
+        "ip": "192.168.1.2"
+    }
+]

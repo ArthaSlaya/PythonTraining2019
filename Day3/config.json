@@ -1,0 +1,11 @@
+{
+    "interval" : 1,
+    "urls" : [{
+        "SITE_ID" : "FACE",
+        "URL" : "facebook.com"
+    },
+    {
+        "SITE_ID" : "GOOGLE",
+        "URL" : "google.com"
+    }]
+}

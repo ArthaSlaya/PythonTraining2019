@@ -1,0 +1,44 @@
+'''
+Question:
+Create a file named "Hosts" without any extension
+The Structure of the file is as follows
+----------Contents----------
+www.facebook.com 192.168.1.1
+www.google.com 192.168.1.2
+----------------------------
+Convert the file to the following 3 JSON Pretty formats 
+---------output1.json-------------
+[
+	{
+		"url" : "www.facebook.com",
+		"ip"  : "192.168.1.1" 
+	},
+	{
+		"url" : "www.google.com",
+		"ip"  : "192.168.1.2" 
+	}
+]
+---------output2.json---------------
+[
+	["url","ip"],
+	["www.facebook.com","192.168.1.1"],
+	["www.google.com","192.168.1.2"]
+]
+--------output3.json----------------
+{
+	"www.facebook.com" : "192.168.1.1",
+	"www.google.com"   : "192.168.1.2"
+}
+-------------------------------------
+SYNTAXS Introduced or which can be used:
+---->
+file=open("filename")
+for x in file:
+	print (x)
+---->
+file=open("filename")
+data=file.readlines()
+---->
+str.split or str.partition
+'''
+

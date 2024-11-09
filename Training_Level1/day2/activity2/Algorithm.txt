@@ -1,0 +1,6 @@
+Step 1:  Open the Host File
+Step 2:  Retrieve Line by Line, Split the Word and store it in a temp structure
+Step 3:  Utilize a For Loop to create the Output1 JSON Structure
+Step 4:  Convert Json Structure to String with Indent 4
+Step 5:  Write the String to the File
+Step 6:  Repeat Step from 3 to 5 for Output 2 to 3
